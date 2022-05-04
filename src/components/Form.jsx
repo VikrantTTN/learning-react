@@ -43,7 +43,7 @@ function Form(props) {
             value={text}
             onChange={handleOnChange}
             style={{
-              backgroundColor:props.mode==='dark'?'#042743':'white',
+              backgroundColor:props.mode==='dark'?'grey':'white',
               color:props.mode==='dark'?'white':'black'
             }}
           />
